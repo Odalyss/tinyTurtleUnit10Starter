@@ -1,18 +1,43 @@
-TinyTurtle.apply(window, [undefined, 400, 400]);
+TinyTurtle.apply(window); 
 
+// form a square
 function square(){
-forward(50);
+forward(40);
+right (90);
+forward(40);
 right(90);
-forward(50);
+forward(40);
 right(90);
-forward(50);
+forward(40);
 right(90);
-forward(50);
-right(90);
-forward(50);
+forward(40);
 }
-
-// Type your function call below
-
-
+square();
+right(30);
+function triangle(){
+    forward(40);
+    right(120);
+    forward(40);
+    right(120);
+    forward(40);
+}
+triangle();
+forward(40);
+function rectangle (){
+forward(40);
+right(90);
+forward(80);
+right(90);
+forward(40);
+right(90);
+forward(80);
+}
+rectangle();
 stamp();
+rectangle();
+left(45);
+square();
+
+//house(); 
+//pentagon(); 
+//hexagon();
