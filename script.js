@@ -37,7 +37,6 @@ stamp();
 rectangle();
 left(45);
 square();
+forward(60);
+square(4);
 
-//house(); 
-//pentagon(); 
-//hexagon();
